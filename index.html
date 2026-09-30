@@ -7,29 +7,13 @@
   <title>צ'ופצ'יק</title>
   <link rel="icon" href="./img/logo.jpg" type="image/jpeg">
 
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <!-- Google Identity Services -->
   <script src="https://accounts.google.com/gsi/client" async></script>
   <meta name="google-signin-client_id" content="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com">
   <style>
-    :root {
-      --p: #2563eb;
-      --pl: #eff6ff;
-      --pd: #1d4ed8;
-      --ac: #06b6d4;
-      --sf: #f8fafc;
-      --sf2: #f1f5f9;
-      --bd: #e2e8f0;
-      --tx: #0f172a;
-      --t2: #64748b;
-      --t3: #94a3b8;
-      --dn: #ef4444;
-      --ok: #22c55e;
-      --wn: #f59e0b;
-      --sh: 0 1px 3px rgba(0, 0, 0, .08), 0 4px 16px rgba(0, 0, 0, .06);
-      --shl: 0 8px 32px rgba(0, 0, 0, .13);
-    }
+    :root{--p:#0b7a75;--pl:#e8f4f2;--pd:#086560;--ac:#0b7a75;--sf:#f5f7fa;--sf2:#eceff3;--bd:#e4e8ee;--tx:#151a23;--t2:#5b6472;--t3:#8a93a1;--dn:#d92d20;--ok:#12a150;--wn:#b7791f;--sh:0 1px 2px rgba(16,24,40,.06);--shl:0 12px 32px rgba(16,24,40,.12)}
 
     * {
       margin: 0;
@@ -38,7 +22,7 @@
     }
 
     body {
-      font-family: 'Heebo', sans-serif;
+      font-family: 'Rubik', 'Heebo', sans-serif;
       background: var(--sf);
       color: var(--tx);
       overflow: hidden;
@@ -122,7 +106,7 @@
     .fg textarea:focus,
     .fg select:focus {
       border-color: var(--p);
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, .12);
+      box-shadow: 0 0 0 3px rgba(11, 122, 117, .12);
     }
 
     .btnp {
@@ -141,7 +125,7 @@
 
     .btnp:hover {
       transform: translateY(-1px);
-      box-shadow: 0 4px 16px rgba(37, 99, 235, .35);
+      box-shadow: 0 4px 16px rgba(11, 122, 117, .35);
     }
 
 
@@ -682,7 +666,7 @@
     .mrow.own .bubble {
       border-radius: 16px 4px 16px 16px !important;
       background: var(--pl) !important;
-      border-color: #bfdbfe !important;
+      border-color: #bfe0db !important;
     }
 
     .mrow.other .mbody {
@@ -780,7 +764,7 @@
 
     .mrow.own .bubble {
       background: var(--pl);
-      border-color: #bfdbfe;
+      border-color: #bfe0db;
       border-radius: 16px 4px 16px 16px;
       align-self: flex-end;
     }
@@ -903,7 +887,7 @@
 
     .rchip.mine {
       background: var(--pl);
-      border-color: #bfdbfe;
+      border-color: #bfe0db;
       color: var(--p);
     }
 
@@ -915,7 +899,7 @@
     /* Mention */
     .mchip {
       display: inline-block;
-      background: #dbeafe;
+      background: #d2ece8;
       color: var(--p);
       padding: 0 7px;
       border-radius: 20px;
@@ -936,7 +920,7 @@
       align-items: center;
       gap: 10px;
       background: var(--pl);
-      border: 1px solid #bfdbfe;
+      border: 1px solid #bfe0db;
       border-radius: 8px;
       padding: 7px 12px;
       margin-bottom: 7px;
@@ -1090,7 +1074,7 @@
 
     .sendbtn:hover:not(:disabled) {
       transform: scale(1.05);
-      box-shadow: 0 4px 12px rgba(37, 99, 235, .4);
+      box-shadow: 0 4px 12px rgba(11, 122, 117, .4);
     }
 
     .sendbtn:disabled {
@@ -1313,7 +1297,7 @@
 
     .stcard {
       background: var(--pl);
-      border: 1px solid #bfdbfe;
+      border: 1px solid #bfe0db;
       border-radius: 10px;
       padding: 12px 14px;
       margin-bottom: 7px;
@@ -1679,7 +1663,7 @@
     }
 
     .ni.unrd {
-      background: #f0f9ff;
+      background: #f0f8f7;
     }
 
     .nico {
@@ -1872,7 +1856,78 @@
         right: 0;
       }
     }
-  </style>
+  
+/* ===== Redesign: light, flat, emoji-free ===== */
+body{-webkit-font-smoothing:antialiased}
+.ic{width:1.1em;height:1.1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.17em;flex-shrink:0}
+.aw,#googleNameScreen{background:var(--sf)}
+.ac{border:1px solid var(--bd);border-radius:16px;box-shadow:var(--shl);padding:40px 36px}
+.ali{background:#fff;border:1px solid var(--bd);width:64px;height:64px;border-radius:14px}
+.alo h1{font-size:24px;font-weight:700;letter-spacing:-.01em}
+.fg label,.asec h4{text-transform:none;letter-spacing:0;font-size:12px;font-weight:500;color:var(--t2)}
+.fg input,.fg textarea,.fg select{border:1px solid var(--bd);border-radius:10px;background:#fff}
+.btnp,.ntbtn,.sendbtn,.mbtn.p{background:var(--p)}
+.btnp:hover,.ntbtn:hover{background:var(--pd);transform:none;box-shadow:none;opacity:1}
+.btn-google{border:1px solid var(--bd)}
+.btn-google:hover{border-color:var(--t3);background:var(--sf);box-shadow:none}
+.sbld,.uav,.av,.miav,.ptip-av{background:var(--pl);color:var(--pd)}
+.sbh{border-bottom:0;padding:16px 14px 6px}
+.sblogo{border-bottom:0;margin-bottom:6px}
+.sblogo span{font-size:17px;font-weight:700}
+.sbsrch{border-bottom:0}
+.sbsrch input{background:var(--sf);border:1px solid transparent;border-radius:10px;padding:9px 12px}
+.sbsrch input:focus{background:#fff;border-color:var(--p)}
+.ti{border:0;border-radius:10px}
+.ti.active,.ti.pinned.active{background:var(--pl);box-shadow:inset -3px 0 0 var(--p)}
+.ti.pinned{background:transparent}
+.ti.hasnew::before{right:auto;left:12px;border:0;background:var(--p)}
+.tt{display:flex;align-items:center;gap:6px}
+.ntbtn{margin:8px 12px;border-radius:10px}
+#contactAdminBtn{margin:0 12px 10px;background:transparent}
+.chdr{padding:16px 24px}
+.chdr h2{font-size:17px;font-weight:600}
+.hbtn{border-radius:8px;padding:6px 12px}
+.msgs{padding:20px 28px}
+.av{width:34px;height:34px;font-size:13px}
+.bubble{border-radius:4px 14px 14px 14px;padding:10px 14px}
+.mrow.own .bubble{border-radius:14px 4px 14px 14px!important;background:var(--pl)!important;border-color:#bfe0db!important}
+.mnm{color:var(--tx)}
+.mfloat{border-radius:10px;box-shadow:var(--shl);padding:3px}
+.fab{display:inline-flex;align-items:center;padding:5px 6px;border-radius:7px;font-size:15px}
+.fab:hover{background:var(--sf2);color:var(--tx)}
+.mviews,.mfloat span{display:inline-flex;align-items:center;gap:3px}
+.rchip{background:#fff;border:1px solid var(--bd);box-shadow:none;border-radius:999px}
+.iarea{padding:12px 24px 16px}
+.minput{background:#fff;border:1px solid var(--bd)}
+.minput:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(11,122,117,.12)}
+.sendbtn:hover:not(:disabled){transform:none;box-shadow:none;background:var(--pd)}
+.sendbtn:disabled{background:var(--sf2);color:var(--t3)}
+.tbtn,.htb{background:#fff;border:1px solid var(--bd);border-radius:8px}
+.tbtn{display:inline-flex;align-items:center;justify-content:center;min-width:32px}
+.lckbar{background:var(--sf2);color:var(--t2);border-top:1px solid var(--bd)}
+.ovl{background:rgba(21,26,35,.4);backdrop-filter:blur(3px)}
+.mbox{border-radius:16px}
+.mbox h3{font-size:18px;font-weight:600}
+.mbtn{border-radius:10px;font-weight:500}
+.mbtn.g{background:#fff;border:1px solid var(--bd)}
+.atab.act{color:var(--pd)}
+.arow{border-radius:12px}
+.stcard{background:#fff;border-color:var(--bd)}
+.stcard .ic{width:22px;height:22px;color:var(--p)}
+.stval{color:var(--tx)}
+.rb-super{background:#ede9fe;color:#5b21b6}
+.rb-admin{background:var(--pl);color:var(--pd)}
+.nbw{box-shadow:var(--sh);border:1px solid var(--bd)}
+.nbw .ic,.nico .ic{width:18px;height:18px}
+.nico{color:var(--p)}
+.ni.unrd{background:#f0f8f7}
+#scrollBtn{background:#fff;color:var(--tx);border:1px solid var(--bd)}
+#adminBtn{background:#fff;color:var(--tx);border:1px solid var(--bd)}
+#adminBtn:hover{transform:none;border-color:var(--p);color:var(--p)}
+.empty .ei{width:44px;height:44px;opacity:1;font-size:0;background:var(--t3);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'/%3E%3C/svg%3E") center/contain no-repeat}
+:focus-visible{outline:2px solid var(--p);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
 </head>
 
 <body>
@@ -1928,11 +1983,11 @@
       </div>
       <div class="sbsrch"><input id="srch" placeholder="חיפוש נושאים..." oninput="renderThreads(this.value)"></div>
       <div id="tlist" class="tlist"></div>
-      <button id="ntbtn" class="ntbtn hidden" onclick="showNewThread()">＋ נושא חדש</button>
-      <button id="contactAdminBtn" onclick="showContactAdmin()">✉️ שלח הודעה למנהל</button>
+      <button id="ntbtn" class="ntbtn hidden" onclick="showNewThread()">+ נושא חדש</button>
+      <button id="contactAdminBtn" onclick="showContactAdmin()">שלח הודעה למנהל</button>
       <div class="muted-section hidden" id="mutedSection">
         <button class="muted-toggle" onclick="toggleMutedList()">
-          <span id="mutedArrow">▸</span> 🔕 צ'אטים מושתקים (<span id="mutedCount">0</span>)
+          <span id="mutedArrow">▸</span> צ'אטים מושתקים (<span id="mutedCount">0</span>)
         </button>
         <div class="muted-list hidden" id="mutedList"></div>
       </div>
@@ -1947,18 +2002,18 @@
       </div>
       <div id="msgs" class="msgs">
         <div class="empty">
-          <div class="ei">💬</div>
+          <div class="ei"></div>
           <h3>ברוכים הבאים</h3>
           <p>בחרו נושא לשיחה</p>
         </div>
       </div>
       <div id="iarea" class="iarea hidden">
-        <div id="qbar" class="qbar hidden">💬 מצטט: <strong id="qfrom"></strong> — <span id="qtxt"></span><button
+        <div id="qbar" class="qbar hidden">מצטט: <strong id="qfrom"></strong> — <span id="qtxt"></span><button
             class="qbarc" onclick="clearQ()">×</button></div>
         <div id="iprev" class="hidden"></div>
         <div id="htgl" class="htgl hidden">
-          <button id="btnMd" class="htb act" onclick="setMode('md')">📝 רגיל</button>
-          <button id="btnHtml" class="htb" onclick="setMode('html')">🌐 HTML</button>
+          <button id="btnMd" class="htb act" onclick="setMode('md')">רגיל</button>
+          <button id="btnHtml" class="htb" onclick="setMode('html')">HTML</button>
         </div>
         <div id="tbar" class="tbar"></div>
         <div class="irow">
@@ -1981,7 +2036,7 @@
       <div id="profNS"></div>
       <div class="fg"><label>תמונת פרופיל</label><input type="file" id="profImg" accept="image/*"></div>
       <div class="fg"><label>סטטוס (עד 60 תווים)</label><input type="text" id="profSt" maxlength="60"
-          placeholder='"משפט מעניין ☕"'></div>
+          placeholder='"משפט מעניין "'></div>
       <button class="mbtn p" onclick="saveProf()">שמור</button>
     </div>
   </div>
@@ -2007,7 +2062,7 @@
   <div class="ovl" id="adminModal">
     <div class="mbox vwide">
       <button class="mcl" onclick="closeM('adminModal')">×</button>
-      <h3>🛡️ פאנל ניהול</h3>
+      <h3>פאנל ניהול</h3>
       <div class="atabs" id="atabs"></div>
       <div id="atab-threads" class="acnt act">
         <div class="asec">
@@ -2022,17 +2077,17 @@
         </div>
       </div>
       <div id="atab-users" class="acnt">
-        <div class="fg"><input type="text" id="ausSearch" placeholder="🔍 חפש..." oninput="renderAUsers()"></div>
+        <div class="fg"><input type="text" id="ausSearch" placeholder="חפש..." oninput="renderAUsers()"></div>
         <div id="auList"></div>
       </div>
       <div id="atab-perms" class="acnt">
         <p style="font-size:13px;color:var(--t2);margin-bottom:12px;">בחר משתמש לעריכת הרשאות</p>
-        <div class="fg"><input type="text" id="apsSearch" placeholder="🔍 חפש..." oninput="renderPermList()"></div>
+        <div class="fg"><input type="text" id="apsSearch" placeholder="חפש..." oninput="renderPermList()"></div>
         <div id="apList"></div>
         <div id="apEditor" class="hidden" style="margin-top:16px;border-top:1px solid var(--bd);padding-top:16px;">
           <h4 id="apTitle" style="font-size:14px;font-weight:700;margin-bottom:12px;"></h4>
           <div id="apChecks"></div>
-          <div style="margin-top:12px;"><strong style="font-size:13px;display:block;margin-bottom:8px;">🚫 חסימה לפי
+          <div style="margin-top:12px;"><strong style="font-size:13px;display:block;margin-bottom:8px;">חסימה לפי
               נושא</strong>
             <div id="apBlocks"></div>
           </div>
@@ -2053,7 +2108,7 @@
         </div>
         <hr style="margin:16px 0;border:none;border-top:1px solid var(--bd);">
         <div class="asec">
-          <h4>📢 הכרזה לנושאים</h4>
+          <h4>הכרזה לנושאים</h4>
           <div class="fg"><label>כותרת</label><input type="text" id="anTitle"></div>
           <div class="fg"><label>תוכן</label><textarea id="anBody" rows="3"></textarea></div>
           <div class="fg"><label>נושאים (ניתן לבחור כמה)</label><select id="anThreads" multiple
@@ -2062,7 +2117,7 @@
           <div style="background:var(--sf2);border-radius:10px;padding:12px;margin-bottom:12px;">
             <div
               style="font-size:12px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;">
-              ⏰ תזמון (אופציונלי)</div>
+              תזמון (אופציונלי)</div>
             <div class="fg" style="margin-bottom:8px;">
               <label>סוג תזמון</label>
               <select id="schedType" onchange="onSchedTypeChange()">
@@ -2096,12 +2151,12 @@
             </div>
           </div>
           <div style="display:flex;gap:8px;">
-            <button class="mbtn p" style="flex:1;" onclick="sendAnn()">📢 שלח / תזמן</button>
+            <button class="mbtn p" style="flex:1;" onclick="sendAnn()">שלח / תזמן</button>
           </div>
         </div>
         <hr style="margin:16px 0;border:none;border-top:1px solid var(--bd);">
         <div class="asec">
-          <h4>⏰ הודעות מתוזמנות</h4>
+          <h4>הודעות מתוזמנות</h4>
           <div id="schedList">
             <p style="font-size:13px;color:var(--t3);padding:8px 0;">אין הודעות מתוזמנות</p>
           </div>
@@ -2109,7 +2164,7 @@
       </div>
       <div id="atab-whitelist" class="acnt">
         <div class="asec">
-          <h4>📧 מיילים מורשים להתחבר</h4>
+          <h4>מיילים מורשים להתחבר</h4>
           <p style="font-size:12px;color:var(--t2);margin-bottom:12px;">רק מיילים שברשימה זו יוכלו להיכנס לאתר. מנהל
             ראשי תמיד מורשה.</p>
           <div style="display:flex;gap:8px;margin-bottom:12px;">
@@ -2128,8 +2183,8 @@
         <div class="asec">
           <h4>פעולות</h4>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
-            <button class="mbtn p" onclick="exportData()">📥 ייצוא</button>
-            <button class="mbtn d" onclick="resetAll()">⚠️ איפוס</button>
+            <button class="mbtn p" onclick="exportData()">ייצוא</button>
+            <button class="mbtn d" onclick="resetAll()">איפוס</button>
           </div>
         </div>
       </div>
@@ -2158,7 +2213,7 @@
   <div class="ovl" id="joinReqModal">
     <div class="mbox">
       <button class="mcl" onclick="closeM('joinReqModal')">×</button>
-      <h3>📩 בקשת הצטרפות לנושא</h3>
+      <h3>בקשת הצטרפות לנושא</h3>
       <p style="font-size:13px;color:var(--t2);margin-bottom:14px;" id="joinReqThreadName"></p>
       <div class="fg"><label>למה תרצה להצטרף שוב?</label><textarea id="joinReqReason" rows="3"
           placeholder="כתוב את הסיבה..."></textarea></div>
@@ -2170,7 +2225,7 @@
   <div class="ovl" id="contactAdminModal">
     <div class="mbox">
       <button class="mcl" onclick="closeM('contactAdminModal')">×</button>
-      <h3>✉️ שלח הודעה למנהל</h3>
+      <h3>שלח הודעה למנהל</h3>
       <div class="fg"><label>הודעה</label><textarea id="contactAdminTxt" rows="4"
           placeholder="כתוב הודעתך..."></textarea></div>
       <button class="mbtn p" onclick="sendContactAdmin()">שלח</button>
@@ -2191,18 +2246,20 @@
   <div class="mdd" id="mdd"></div>
   <!-- Notification bell -->
   <div id="nbell" onclick="toggleNP()">
-    <div class="nbw">🔔<div class="nbb hidden" id="nbb">0</div>
+    <div class="nbw"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a2 2 0 0 0 3.4 0"/></svg><div class="nbb hidden" id="nbb">0</div>
     </div>
   </div>
   <div class="np" id="np">
     <div class="nph">התראות <span class="npc" onclick="clearNotifs()">נקה הכל</span></div>
     <div class="nl" id="nl"></div>
   </div>
-  <button id="scrollBtn" onclick="scrollLast()">↓ הודעה אחרונה</button>
-  <button id="adminBtn" onclick="openAdmin()">🛡️ ניהול</button>
+  <button id="scrollBtn" onclick="scrollLast()">הודעה אחרונה</button>
+  <button id="adminBtn" onclick="openAdmin()"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> ניהול</button>
   <input type="file" id="imgUpload" accept="image/*" style="display:none;">
   <input type="file" id="vidUpload" accept="video/*" style="display:none;">
   <script>
+    const IC = {"pin": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 17v5\"/><path d=\"M9 10.8a2 2 0 0 1-1.1 1.8l-1.8.9A2 2 0 0 0 5 15.2V17h14v-1.8a2 2 0 0 0-1.1-1.8l-1.8-.9A2 2 0 0 1 15 10.8V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1z\"/></svg>", "lock": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4\" y=\"11\" width=\"16\" height=\"10\" rx=\"2\"/><path d=\"M8 11V7a4 4 0 0 1 8 0v4\"/></svg>", "bell": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9\"/><path d=\"M10.3 21a2 2 0 0 0 3.4 0\"/></svg>", "smile": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01\"/></svg>", "chat": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z\"/></svg>", "edit": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 20h9\"/><path d=\"M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z\"/></svg>", "trash": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6\"/></svg>", "eye": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>", "image": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle cx=\"9\" cy=\"9\" r=\"2\"/><path d=\"M21 15l-5-5L5 21\"/></svg>", "video": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2\" y=\"6\" width=\"14\" height=\"12\" rx=\"2\"/><path d=\"M22 8l-6 4 6 4z\"/></svg>", "link": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7\"/><path d=\"M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7\"/></svg>", "quote": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 21c3 0 7-1 7-8V5H4v6h4c0 3-1 4-5 4zM14 21c3 0 7-1 7-8V5h-6v6h4c0 3-1 4-5 4z\"/></svg>", "mail": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M22 7l-10 6L2 7\"/></svg>", "at": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8\"/></svg>", "shield": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>", "check": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 6L9 17l-5-5\"/></svg>", "user": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4 21a8 8 0 0 1 16 0\"/></svg>", "folder": "<svg class=\"ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>"};
+
     // ═══ STATE ═══
     let CU = null, CT = null, threads = [], msgs = [], mentionUsers = [];
     let quotedMsg = null, pendingImg = null, pendingVideo = null, inputMode = 'md', editingPermUid = null, lastMentionIdx = -1;
@@ -2215,21 +2272,21 @@ const STATUS_BAD = ['סדרות', 'סרטים'];
     const MAX_STATUS = 60;
     const TWO_MIN = 120000;
     const PERM_DEFS = [
-      { k: 'isAdmin', l: '🛡️ מנהל מלא', d: 'גישה לפאנל ניהול מלא' },
-      { k: 'canHtml', l: '🌐 שליחת HTML', d: 'הודעות HTML מעוצבות' },
-      { k: 'canPoll', l: '📊 סקרים', d: 'יצירת סקרים' },
-      { k: 'canSendImages', l: '📷 תמונות', d: 'שליחת תמונות' },
-      { k: 'canPin', l: '📌 הצמדה', d: 'הצמדת נושאים' },
-      { k: 'canLock', l: '🔒 נעילה', d: 'נעילת נושאים' },
-      { k: 'canDelete', l: '🗑️ מחיקת הודעות', d: 'מחיקת הודעות אחרים' },
-      { k: 'canCreateThread', l: '➕ יצירת נושאים', d: 'פתיחת נושאים חדשים' },
-      { k: 'canHide', l: '🙈 הסתרת נושאים', d: 'הסתרת נושאים מכלל המשתמשים' },
-      { k: 'canManageAccess', l: '🔑 ניהול גישה', d: 'הגדרת גישה לנושאים מוסתרים' },
+      { k: 'isAdmin', l: 'מנהל מלא', d: 'גישה לפאנל ניהול מלא' },
+      { k: 'canHtml', l: 'שליחת HTML', d: 'הודעות HTML מעוצבות' },
+      { k: 'canPoll', l: 'סקרים', d: 'יצירת סקרים' },
+      { k: 'canSendImages', l: 'תמונות', d: 'שליחת תמונות' },
+      { k: 'canPin', l: 'הצמדה', d: 'הצמדת נושאים' },
+      { k: 'canLock', l: 'נעילה', d: 'נעילת נושאים' },
+      { k: 'canDelete', l: 'מחיקת הודעות', d: 'מחיקת הודעות אחרים' },
+      { k: 'canCreateThread', l: 'יצירת נושאים', d: 'פתיחת נושאים חדשים' },
+      { k: 'canHide', l: 'הסתרת נושאים', d: 'הסתרת נושאים מכלל המשתמשים' },
+      { k: 'canManageAccess', l: 'ניהול גישה', d: 'הגדרת גישה לנושאים מוסתרים' },
     ];
 
 
     // ═══ FIREBASE CONFIG ═══
-    // ⬇️ החלף את הערכים האלה בפרטים שקיבלת מ-Firebase Console
+    // החלף את הערכים האלה בפרטים שקיבלת מ-Firebase Console
     const firebaseConfig = {
       apiKey: "AIzaSyC3lsTeEOUdAje1NRtEZt9LB6vk_gmtZgs",
       authDomain: "choopchik-forum.firebaseapp.com",
@@ -2451,7 +2508,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       // Loading spinner
       const loader = document.createElement('div');
       loader.style.cssText = 'position:fixed;inset:0;background:linear-gradient(135deg,#1e3a8a,#0ea5e9);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;color:white;font-family:Heebo,sans-serif;';
-      loader.innerHTML = '<div style="font-size:36px;margin-bottom:16px;">💬</div><div style="font-size:18px;font-weight:700;margin-bottom:8px;">מרחב הדיונים</div><div style="font-size:14px;opacity:.8;">מתחבר לשרת...</div><div style="margin-top:20px;width:40px;height:40px;border:3px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;"></div><style>@keyframes spin{to{transform:rotate(360deg)}}</style>';
+      loader.innerHTML = '<div style="font-size:36px;margin-bottom:16px;"></div><div style="font-size:18px;font-weight:700;margin-bottom:8px;">מרחב הדיונים</div><div style="font-size:14px;opacity:.8;">מתחבר לשרת...</div><div style="margin-top:20px;width:40px;height:40px;border:3px solid rgba(255,255,255,.3);border-top-color:white;border-radius:50%;animation:spin .7s linear infinite;"></div><style>@keyframes spin{to{transform:rotate(360deg)}}</style>';
       document.body.appendChild(loader);
       // Init Firebase first
       try { await initFirebase(); } catch (e) { console.warn('Firebase init failed:', e); }
@@ -2476,7 +2533,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       if (!localStorage.getItem('messages')) {
         ss('messages', [{
           id: '1', threadId: '1', userId: '1', userName: 'מנהל ראשי',
-          userAvatar: 'מ', content: 'ברוכים הבאים! 🎉', isHtml: false,
+          userAvatar: 'מ', content: 'ברוכים הבאים! ', isHtml: false,
           timestamp: new Date().toISOString(), edited: false, reactions: {}, views: ['1'], poll: null, quotedMessage: null
         }]);
       }
@@ -2633,7 +2690,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         el.className = 'ti' + (t.pinned ? ' pinned' : '') + (t.locked ? ' locked' : '') + (CT && CT.id === t.id ? ' active' : '');
         el.dataset.tid = t.id;
         if (threadUnread(t)) el.classList.add('hasnew');
-        el.innerHTML = `<div class="tt">${t.pinned ? '📌 ' : ''}${t.locked ? '🔒 ' : ''}${t.title}</div>
+        el.innerHTML = `<div class="tt">${t.pinned ? IC.pin : ''}${t.locked ? IC.lock : ''}${t.title}</div>
    <div class="tm">${fmtDate(t.lastActivity)} · ${t.messageCount || 0} הודעות</div>`;
         el.onclick = () => selectThread(t);
         c.appendChild(el);
@@ -2657,21 +2714,21 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       $('ctitle').textContent = t.title; $('cdesc').textContent = t.description || '';
       // header actions
       const hb = $('hbtns'); hb.innerHTML = '';
-      if (can('canPin')) hb.innerHTML += `<button class="hbtn" onclick="adPin('${t.id}')">${t.pinned ? '📌 בטל' : '📌 הצמד'}</button>`;
-      if (can('canLock')) hb.innerHTML += `<button class="hbtn" onclick="adLock('${t.id}')">${t.locked ? '🔓 פתח' : '🔒 נעל'}</button>`;
-      if (isAdmin()) hb.innerHTML += `<button class="hbtn dn" onclick="adDelThread('${t.id}')">🗑️ מחק</button>`;
-      if (isAdmin() || can('canHide')) hb.innerHTML += `<button class="hbtn" onclick="adToggleHide('${t.id}')">${t.hidden ? '👁 הצג' : '🙈 הסתר'}</button>`;
-      if (isAdmin() || can('canManageAccess')) hb.innerHTML += `<button class="hbtn" onclick="adManageAccess('${t.id}')">🔑 גישה</button>`;
+      if (can('canPin')) hb.innerHTML += `<button class="hbtn" onclick="adPin('${t.id}')">${t.pinned ? 'בטל הצמדה' : 'הצמד'}</button>`;
+      if (can('canLock')) hb.innerHTML += `<button class="hbtn" onclick="adLock('${t.id}')">${t.locked ? 'פתח' : 'נעל'}</button>`;
+      if (isAdmin()) hb.innerHTML += `<button class="hbtn dn" onclick="adDelThread('${t.id}')">מחק</button>`;
+      if (isAdmin() || can('canHide')) hb.innerHTML += `<button class="hbtn" onclick="adToggleHide('${t.id}')">${t.hidden ? 'הצג' : 'הסתר'}</button>`;
+      if (isAdmin() || can('canManageAccess')) hb.innerHTML += `<button class="hbtn" onclick="adManageAccess('${t.id}')">גישה</button>`;
       if (!isAdmin()) {
         const muted = isThreadMuted(t.id);
-        hb.innerHTML += `<button class="hbtn" onclick="toggleMuteThread('${t.id}')" title="${muted ? 'בטל השתקה' : 'השתק נושא'}">${muted ? '🔔 בטל השתקה' : '🔕 השתק'}</button>`;
-        hb.innerHTML += `<button class="hbtn" onclick="selfLeaveThread('${t.id}')">🚪 עזוב</button>`;
+        hb.innerHTML += `<button class="hbtn" onclick="toggleMuteThread('${t.id}')" title="${muted ? 'בטל השתקה' : 'השתק נושא'}">${muted ? 'בטל השתקה' : 'השתק'}</button>`;
+        hb.innerHTML += `<button class="hbtn" onclick="selfLeaveThread('${t.id}')">עזוב</button>`;
       }
       // input visibility
       const blk = blockedIn(t.id);
       if ((t.locked && !can('canLock')) || blk) {
         $('iarea').classList.add('hidden'); $('lckbar').classList.remove('hidden');
-        $('lckbar').textContent = blk ? '🚫 אינך מורשה לכתוב בנושא זה' : '🔒 נושא נעול — רק מנהלים';
+        $('lckbar').textContent = blk ? 'אינך מורשה לכתוב בנושא זה' : 'נושא נעול — רק מנהלים';
       } else {
         $('iarea').classList.remove('hidden'); $('lckbar').classList.add('hidden');
         if (inputMode === 'md') buildToolbar();
@@ -2711,7 +2768,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
     function renderMsgs() {
       const c = $('msgs'); c.innerHTML = '';
       if (!msgs.length) {
-        c.innerHTML = '<div class="empty"><div class="ei">🗨️</div><h3>אין הודעות</h3><p>היה הראשון!</p></div>';
+        c.innerHTML = '<div class="empty"><div class="ei"></div><h3>אין הודעות</h3><p>היה הראשון!</p></div>';
         if (CT) markRead(CT.id); return;
       }
       msgs.forEach((msg, i) => {
@@ -2739,7 +2796,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       if (msg.deleted) {
         w.innerHTML = `<div class="mavc">${showH ? `<div class="av" onclick="showPtip('${msg.userId}',this)">${avH}</div>` : '<div style="width:42px"></div>'}</div>
    <div class="mbody">${showH ? `<div class="mhdr"><span class="mnm">${msg.userName}</span><span class="mtime">${fmtTime(msg.timestamp)}</span></div>` : ''}
-   <div class="bubble del">🗑️ הודעה נמחקה</div></div>`;
+   <div class="bubble del">הודעה נמחקה</div></div>`;
         return w;
       }
       let content = '';
@@ -2752,16 +2809,16 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       const canDel = (isSuper() || (can('canDelete') && !isSuper(ud)));
       // Floating actions (no layout shift - absolutely positioned)
       const float = `<div class="mfloat">
-  <button class="fab" data-react="1" onclick="openRP(event,'${msg.id}')" title="תגובה">😊</button>
-  <button class="fab" onclick="startQ('${msg.id}')" title="צטט">💬</button>
-  ${!showH ? `<span style="font-size:10px;color:var(--t3);padding:2px 5px;">${timeStr} · 👁${views}</span>` : ''}
-  ${isOwn ? `<button class="fab" onclick="editMsg('${msg.id}')" title="ערוך">✏️</button>` : ''}
-  ${canDel && (isSuper() || !isSuper(ud)) ? `<button class="fab" onclick="delMsg('${msg.id}')" title="מחק">🗑️</button>` : ''}
+  <button class="fab" data-react="1" onclick="openRP(event,'${msg.id}')" title="תגובה">${IC.smile}</button>
+  <button class="fab" onclick="startQ('${msg.id}')" title="צטט">${IC.quote}</button>
+  ${!showH ? `<span style="font-size:10px;color:var(--t3);padding:2px 5px;">${timeStr} · ${IC.eye} ${views}</span>` : ''}
+  ${isOwn ? `<button class="fab" onclick="editMsg('${msg.id}')" title="ערוך">${IC.edit}</button>` : ''}
+  ${canDel && (isSuper() || !isSuper(ud)) ? `<button class="fab" onclick="delMsg('${msg.id}')" title="מחק">${IC.trash}</button>` : ''}
  </div>`;
       w.innerHTML = `${float}
   <div class="mavc">${showH ? `<div class="av" onclick="showPtip('${msg.userId}',this)">${avH}</div>` : '<div style="width:42px"></div>'}</div>
   <div class="mbody">
-   ${showH ? `<div class="mhdr"><span class="mnm">${msg.userName}</span><span class="mtime">${timeStr}</span><span class="mviews">👁 ${views}</span>${msg.edited ? '<span class="medit">(נערך)</span>' : ''}</div>` : ''}
+   ${showH ? `<div class="mhdr"><span class="mnm">${msg.userName}</span><span class="mtime">${timeStr}</span><span class="mviews">${IC.eye} ${views}</span>${msg.edited ? '<span class="medit">(נערך)</span>' : ''}</div>` : ''}
    <div class="bubble">${content}</div>
    ${renderReacts(msg)}
   </div>`;
@@ -2892,7 +2949,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       lastMentionIdx = m.index;
       const q = m[1].toLowerCase();
       let matches = mentionUsers.filter(u => u.name.toLowerCase().includes(q));
-      if (isAdmin() && 'כולם'.includes(q)) matches = [{ id: 'all', name: 'כולם', avatar: '📢' }, ...matches];
+      if (isAdmin() && 'כולם'.includes(q)) matches = [{ id: 'all', name: 'כולם', avatar: 'כ' }, ...matches];
       if (!matches.length) { dd.style.display = 'none'; return; }
       dd.innerHTML = '';
       matches.slice(0, 7).forEach(u => {
@@ -2939,7 +2996,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const bar = $('iprev'); bar.classList.remove('hidden');
         bar.innerHTML = `
    <img src="${ev.target.result}" alt="" style="width:60px;height:60px;object-fit:cover;border-radius:8px;flex-shrink:0;">
-   <span class="iprevn">📷 ${f.name}</span>
+   <span class="iprevn">${f.name}</span>
    <button class="iprevrm" onclick="clearImgPrev()">×</button>`;
         // Enable send button even if textarea is empty
         $('sbtn').disabled = false;
@@ -2954,7 +3011,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       inputMode = mode;
       $('btnMd').classList.toggle('act', mode === 'md');
       $('btnHtml').classList.toggle('act', mode === 'html');
-      if (mode === 'html') { $('tbar').innerHTML = `<span style="font-size:12px;color:var(--t2);">✏️ HTML — תגיות: &lt;b&gt; &lt;i&gt; &lt;span style&gt; &lt;br&gt; &lt;img&gt; &lt;a&gt;</span>`; }
+      if (mode === 'html') { $('tbar').innerHTML = `<span style="font-size:12px;color:var(--t2);">HTML — תגיות: &lt;b&gt; &lt;i&gt; &lt;span style&gt; &lt;br&gt; &lt;img&gt; &lt;a&gt;</span>`; }
       else buildToolbar();
     }
     function buildToolbar() {
@@ -2966,11 +3023,11 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
   <button class="tbtn" data-f="italic"><em>I</em></button>
   <button class="tbtn" data-f="underline"><u>U</u></button>
   <button class="tbtn" data-f="strike"><s>S</s></button>
-  <button class="tbtn" data-f="quote">❝</button>
+  <button class="tbtn" data-f="quote">${IC.quote}</button>
   <button class="tbtn" data-f="code">&lt;/&gt;</button>
-  <button class="tbtn" data-f="link">🔗</button>
-  <button class="tbtn" data-f="emoji">😊</button>
-  ${showImg ? `<button class="tbtn" onclick="$('imgUpload').click()">📷</button><button class="tbtn" onclick="$('vidUpload').click()">🎬</button>` : ''}`;
+  <button class="tbtn" data-f="link">${IC.link}</button>
+  <button class="tbtn" data-f="emoji">${IC.smile}</button>
+  ${showImg ? `<button class="tbtn" onclick="$('imgUpload').click()">${IC.image}</button><button class="tbtn" onclick="$('vidUpload').click()">${IC.video}</button>` : ''}`;
       tb.querySelectorAll('[data-f]').forEach(b => b.addEventListener('click', () => doFmt(b.dataset.f)));
     }
     function doFmt(f) {
@@ -3036,7 +3093,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
     function renderPoll(poll, msgId) {
       const voted = poll.voters.includes(CU.id);
       const total = poll.options.reduce((s, o) => s + o.votes.length, 0);
-      let h = `<div class="pcard"><div class="pq">📊 ${poll.question}</div>`;
+      let h = `<div class="pcard"><div class="pq">${poll.question}</div>`;
       if (!voted) {
         const radio = poll.maxChoices === 1;
         h += `<div id="pv-${poll.id}">`;
@@ -3048,7 +3105,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         poll.options.forEach(o => {
           const pct = total > 0 ? Math.round(o.votes.length / total * 100) : 0;
           const mine = o.votes.includes(CU.id);
-          h += `<div><div class="prl"><span>${mine ? '✓ ' : ''}${o.text}</span><span>${pct}%</span></div><div class="prbg"><div class="prfill" style="width:${pct}%"></div></div></div>`;
+          h += `<div><div class="prl"><span>${mine ? IC.check + ' ' : ''}${o.text}</span><span>${pct}%</span></div><div class="prbg"><div class="prfill" style="width:${pct}%"></div></div></div>`;
         });
         h += `<div style="font-size:11px;color:var(--t3);margin-top:5px;">סה"כ ${total} קולות</div>`;
       }
@@ -3095,16 +3152,16 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       if (!myN.length) { list.innerHTML = '<div class="nonot">אין התראות</div>'; return; }
       myN.forEach(notif => {
         const d = document.createElement('div'); d.className = 'ni' + (notif.read ? '' : ' unrd');
-        let ico = '🔔', title = '', sub = '';
+        let ico = IC.bell, title = '', sub = '';
         if (notif.type === 'mention') {
-          ico = '🏷️'; title = `<b>${notif.from}</b> תייג אותך`; sub = `ב"${notif.threadTitle || ''}"`;
+          ico = IC.at; title = `<b>${notif.from}</b> תייג אותך`; sub = `ב"${notif.threadTitle || ''}"`;
         } else if (notif.type === 'dm') {
-          ico = '✉️'; title = `<b>${notif.from}</b> שלח הודעה`; sub = (notif.text || '').substring(0, 40);
+          ico = IC.mail; title = `<b>${notif.from}</b> שלח הודעה`; sub = (notif.text || '').substring(0, 40);
         } else if (notif.type === 'pin') {
-          ico = '📌'; title = `${notif.from} הצמיד "${notif.text || ''}"`;
+          ico = IC.pin; title = `${notif.from} הצמיד "${notif.text || ''}"`;
         } else if (notif.type === 'lock') {
-          ico = '🔒'; title = `${notif.from} נעל "${notif.text || ''}"`;
-        } else if (notif.type === 'block') { ico = '🛡️'; title = `${notif.from}: ${notif.text || ''}`; }
+          ico = IC.lock; title = `${notif.from} נעל "${notif.text || ''}"`;
+        } else if (notif.type === 'block') { ico = IC.shield; title = `${notif.from}: ${notif.text || ''}`; }
         d.innerHTML = `<div class="nico">${ico}</div><div class="nitx"><b>${title}</b>${sub ? `<div>${sub}</div>` : ''}<div class="nitime">${fmtDate(notif.timestamp)}</div></div>`;
         if (notif.threadId) {
           d.onclick = () => {
@@ -3126,7 +3183,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
 
     // ═══ ADMIN ═══
     const ATABS = ['threads', 'users', 'perms', 'requests', 'msgs', 'whitelist', 'settings'];
-    const ALABELS = ['נושאים', 'משתמשים', 'הרשאות', 'בקשות שם', 'הודעות', '🔐 גישה', 'הגדרות'];
+    const ALABELS = ['נושאים', 'משתמשים', 'הרשאות', 'בקשות שם', 'הודעות', 'גישה', 'הגדרות'];
     function openAdmin() {
       if (!isAdmin()) { alert('אין הרשאה'); return; }
       const tc = $('atabs'); tc.innerHTML = '';
@@ -3148,13 +3205,13 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       const ts = ls('threads'), c = $('atList'); c.innerHTML = '';
       ts.forEach(t => {
         const d = document.createElement('div'); d.className = 'arow';
-        d.innerHTML = `<div class="ari"><strong>${t.title}${t.hidden ? ' 🙈' : ''}</strong><small>${t.description || ''} · ${t.messageCount || 0} הודעות ${t.hidden ? '· מוסתר' : ''}</small></div>
+        d.innerHTML = `<div class="ari"><strong>${t.title}${t.hidden ? ' ' : ''}</strong><small>${t.description || ''} · ${t.messageCount || 0} הודעות ${t.hidden ? '· מוסתר' : ''}</small></div>
    <div class="abtns">
-    <button class="mbtn g" onclick="adPin('${t.id}')">${t.pinned ? '📌 בטל' : '📌'}</button>
-    <button class="mbtn g" onclick="adLock('${t.id}')">${t.locked ? '🔓' : '🔒'}</button>
-    <button class="mbtn g" onclick="adRenameThread('${t.id}')">✏️ שנה שם</button>
-    <button class="mbtn g" onclick="adToggleHide('${t.id}')">${t.hidden ? '👁 הצג' : '🙈 הסתר'}</button>
-    <button class="mbtn g" onclick="adManageAccess('${t.id}')">🔑 גישה</button>
+    <button class="mbtn g" onclick="adPin('${t.id}')">${t.pinned ? 'בטל הצמדה' : 'הצמד'}</button>
+    <button class="mbtn g" onclick="adLock('${t.id}')">${t.locked ? 'פתח' : 'נעל'}</button>
+    <button class="mbtn g" onclick="adRenameThread('${t.id}')">שנה שם</button>
+    <button class="mbtn g" onclick="adToggleHide('${t.id}')">${t.hidden ? 'הצג' : 'הסתר'}</button>
+    <button class="mbtn g" onclick="adManageAccess('${t.id}')">גישה</button>
     <button class="mbtn d" onclick="adDelThread('${t.id}')">מחק</button>
    </div>`;
         c.appendChild(d);
@@ -3168,11 +3225,11 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       users.forEach(u => {
         const d = document.createElement('div'); d.className = 'arow';
         d.innerHTML = `<div class="ari">
-   <strong>${u.name}${isSuper(u) ? ' 👑' : u.isAdmin ? ' 🛡️' : ''}</strong>
+   <strong>${u.name}${isSuper(u) ? ' (ראשי)' : u.isAdmin ? ' (מנהל)' : ''}</strong>
    <small>${u.email} ${u.deleted ? '<span style="color:var(--dn)">חסום</span>' : ''}</small>
   </div>
   <div class="abtns">
-   <button class="mbtn g" onclick="adRename('${u.id}')">✏️ שם</button>
+   <button class="mbtn g" onclick="adRename('${u.id}')">שם</button>
    ${!isSuper(u) ? `<button class="mbtn ${u.isAdmin ? 'd' : 'g'}" onclick="adToggleAdmin('${u.id}')">${u.isAdmin ? 'הסר מנהל' : 'הפוך למנהל'}</button>` : ''}
    ${!isSuper(u) ? `<button class="mbtn ${u.deleted ? 's' : 'd'}" onclick="adToggleBlock('${u.id}')">${u.deleted ? 'בטל חסימה' : 'חסום'}</button>` : ''}
   </div>`;
@@ -3188,9 +3245,9 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const d = document.createElement('div'); d.className = 'arow';
         const p = u.perms || {};
         const pills = PERM_DEFS.filter(pd => u.isAdmin || p[pd.k]).map(pd => `<span class="bpill">${pd.l.split(' ')[0]}</span>`).join(' ');
-        d.innerHTML = `<div class="ari"><strong>${u.name}${u.isAdmin ? ' 🛡️' : ''}</strong><small>${u.email}</small>
+        d.innerHTML = `<div class="ari"><strong>${u.name}${u.isAdmin ? ' (מנהל)' : ''}</strong><small>${u.email}</small>
    <div style="margin-top:4px;display:flex;gap:3px;flex-wrap:wrap;">${pills || '<span style="font-size:11px;color:var(--t3)">ללא הרשאות מיוחדות</span>'}</div></div>
-  <div class="abtns"><button class="mbtn p" onclick="openPermE('${u.id}')">✏️ ערוך</button></div>`;
+  <div class="abtns"><button class="mbtn p" onclick="openPermE('${u.id}')">ערוך</button></div>`;
         c.appendChild(d);
       });
     }
@@ -3214,7 +3271,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const isBlk = blocked.includes(t.id);
         const lbl = document.createElement('label'); lbl.className = 'plbl blk';
         lbl.innerHTML = `<input type="checkbox" class="blk-inp" data-bt="${t.id}" ${isBlk ? 'checked' : ''} style="accent-color:var(--dn);">
-   <div style="font-size:13px;">🚫 חסום מ: <strong>${t.title}</strong></div>`;
+   <div style="font-size:13px;">חסום מ: <strong>${t.title}</strong></div>`;
         bl.appendChild(lbl);
       });
       $('apEditor').classList.remove('hidden');
@@ -3230,7 +3287,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       np.blockedThreads = bt;
       users[i].isAdmin = !!np.isAdmin; delete np.isAdmin; users[i].perms = np; ss('users', users);
       if (CU.id === editingPermUid) { CU.isAdmin = users[i].isAdmin; CU.perms = np; localStorage.setItem('currentUser', JSON.stringify(CU)); }
-      const btn = document.querySelector('#apEditor .mbtn.p'); btn.textContent = '✓ נשמר!';
+      const btn = document.querySelector('#apEditor .mbtn.p'); btn.textContent = 'נשמר!';
       setTimeout(() => { btn.textContent = 'שמור הרשאות'; }, 1600);
       renderPermList(); renderAUsers();
     }
@@ -3309,7 +3366,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       }
 
       if (!hasAny && !hasLeft) {
-        c.innerHTML = '<p style="text-align:center;color:var(--t2);padding:20px;font-size:13px;">אין בקשות ✓</p>';
+        c.innerHTML = '<p style="text-align:center;color:var(--t2);padding:20px;font-size:13px;">אין בקשות </p>';
       }
     }
 
@@ -3329,7 +3386,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       const t = ls('threads').find(x => x.id === tid);
       addNotif(uid, {
         type: 'dm', from: 'מנהל',
-        text: `הוחזרת לנושא "${t ? t.title : ''}" 🎉`, threadId: tid
+        text: `הוחזרת לנושא "${t ? t.title : ''}" `, threadId: tid
       });
       renderARequests();
       loadThreads();
@@ -3396,7 +3453,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const msg = {
           id: (Date.now() + Math.random()).toString(), threadId: tid, userId: CU ? CU.id : 'system',
           userName: CU ? CU.name : 'מערכת', userAvatar: CU ? CU.avatar : 'מ',
-          content: '📢 **' + title + '**\n\n' + body, isHtml: false,
+          content: '**' + title + '**\n\n' + body, isHtml: false,
           timestamp: new Date().toISOString(), edited: false, reactions: {}, views: [], poll: null, quotedMessage: null
         };
         const all = ls('messages'); all.push(msg); ss('messages', all);
@@ -3429,10 +3486,10 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const threads = ls('threads');
         const threadNames = s.tids.map(tid => { const t = threads.find(x => x.id === tid); return t ? t.title : tid; }).join(', ');
         let timeInfo = '';
-        if (s.type === 'once') timeInfo = '⏰ ' + new Date(s.sendAt).toLocaleString('he-IL');
-        else timeInfo = '🔁 כל ' + s.intervalLabel + (s.nextSendAt ? ' · הבא: ' + new Date(s.nextSendAt).toLocaleString('he-IL') : '');
+        if (s.type === 'once') timeInfo = '' + new Date(s.sendAt).toLocaleString('he-IL');
+        else timeInfo = 'כל ' + s.intervalLabel + (s.nextSendAt ? ' · הבא: ' + new Date(s.nextSendAt).toLocaleString('he-IL') : '');
         d.innerHTML = `<div class="ari">
-   <strong>📢 ${s.title}</strong>
+   <strong>${s.title}</strong>
    <small>${timeInfo}</small>
    <small style="color:var(--t3);">${threadNames}</small>
   </div>
@@ -3474,10 +3531,10 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
     function renderAStats() {
       const u = ls('users'), m = ls('messages'), t = ls('threads');
       $('aStats').innerHTML = `
-  <div class="stcard"><div>📧</div><div><div class="stval">${new Set(u.map(x => x.email)).size}</div><div class="stlbl">מיילים</div></div></div>
-  <div class="stcard"><div>👤</div><div><div class="stval">${u.filter(x => !x.deleted).length}</div><div class="stlbl">משתמשים</div></div></div>
-  <div class="stcard"><div>💬</div><div><div class="stval">${m.filter(x => !x.deleted).length}</div><div class="stlbl">הודעות</div></div></div>
-  <div class="stcard"><div>📂</div><div><div class="stval">${t.length}</div><div class="stlbl">נושאים</div></div></div>`;
+  <div class="stcard"><div>${IC.mail}</div><div><div class="stval">${new Set(u.map(x => x.email)).size}</div><div class="stlbl">מיילים</div></div></div>
+  <div class="stcard"><div>${IC.user}</div><div><div class="stval">${u.filter(x => !x.deleted).length}</div><div class="stlbl">משתמשים</div></div></div>
+  <div class="stcard"><div>${IC.chat}</div><div><div class="stval">${m.filter(x => !x.deleted).length}</div><div class="stlbl">הודעות</div></div></div>
+  <div class="stcard"><div>${IC.folder}</div><div><div class="stval">${t.length}</div><div class="stlbl">נושאים</div></div></div>`;
     }
     function adPin(tid) {
       const ts = ls('threads'), i = ts.findIndex(t => t.id === tid); if (i === -1) return;
@@ -3497,7 +3554,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       if (!confirm('למחוק?')) return;
       let ts = ls('threads'); ts = ts.filter(t => t.id !== tid); ss('threads', ts);
       let m = ls('messages'); m = m.filter(x => x.threadId !== tid); ss('messages', m);
-      if (CT && CT.id === tid) { CT = null; $('chdr').classList.add('hidden'); $('iarea').classList.add('hidden'); $('msgs').innerHTML = '<div class="empty"><div class="ei">💬</div><h3>ברוכים הבאים</h3></div>'; }
+      if (CT && CT.id === tid) { CT = null; $('chdr').classList.add('hidden'); $('iarea').classList.add('hidden'); $('msgs').innerHTML = '<div class="empty"><div class="ei"></div><h3>ברוכים הבאים</h3></div>'; }
       loadThreads(); renderAThreads();
     }
     function adToggleAdmin(uid) {
@@ -3546,7 +3603,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       if (CU.id === uid) { CU.name = name; CU.avatar = name.charAt(0).toUpperCase(); localStorage.setItem('currentUser', JSON.stringify(CU)); $('unm').textContent = name; renderUAv(); }
     }
     function exportData() { const data = { users: ls('users'), threads: ls('threads'), messages: ls('messages') }; const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })); const a = document.createElement('a'); a.href = url; a.download = `forum-${new Date().toISOString().split('T')[0]}.json`; a.click(); URL.revokeObjectURL(url); }
-    function resetAll() { if (confirm('⚠️ מחיקת כל הנתונים?')) if (confirm('בטוח?')) { localStorage.clear(); location.reload(); } }
+    function resetAll() { if (confirm('מחיקת כל הנתונים?')) if (confirm('בטוח?')) { localStorage.clear(); location.reload(); } }
 
 
     // ═══ THREAD ACCESS / HIDDEN THREADS ═══
@@ -3571,7 +3628,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       if (CT && CT.id === tid) {
         if (!threadVisibleToUser(ts[i])) {
           CT = null; $('chdr').classList.add('hidden'); $('iarea').classList.add('hidden');
-          $('msgs').innerHTML = '<div class="empty"><div class="ei">💬</div><h3>ברוכים הבאים</h3></div>';
+          $('msgs').innerHTML = '<div class="empty"><div class="ei"></div><h3>ברוכים הבאים</h3></div>';
         } else {
           CT = ts[i]; selectThread(CT); // refresh header buttons
         }
@@ -3644,7 +3701,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const msg = {
           id: Date.now().toString(), threadId: adminThread.id,
           userId: CU.id, userName: CU.name, userAvatar: CU.avatar,
-          content: `📩 **הודעה מ-${CU.name}:**\n${text}`, isHtml: false,
+          content: `**הודעה מ-${CU.name}:**\n${text}`, isHtml: false,
           timestamp: new Date().toISOString(), edited: false, reactions: {}, views: [CU.id], poll: null, quotedMessage: null
         };
         const all = ls('messages'); all.push(msg); ss('messages', all);
@@ -3661,7 +3718,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       const ts = ls('threads');
       if (!ts.find(t => t.isAdminInbox)) {
         const t = {
-          id: 'admin-inbox', title: '📩 תיבת הודעות מנהל', description: 'הודעות שנשלחו מהמשתמשים',
+          id: 'admin-inbox', title: 'תיבת הודעות מנהל', description: 'הודעות שנשלחו מהמשתמשים',
           createdBy: CU.id, createdAt: new Date().toISOString(), messageCount: 0,
           lastActivity: new Date().toISOString(), pinned: true, locked: true, hidden: true,
           isAdminInbox: true, lastMessageId: null, lastRead: {},
@@ -3698,7 +3755,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
       $('chdr').classList.add('hidden');
       $('iarea').classList.add('hidden');
       $('lckbar').classList.add('hidden');
-      $('msgs').innerHTML = '<div class="empty"><div class="ei">💬</div><h3>ברוכים הבאים</h3><p>בחרו נושא לשיחה</p></div>';
+      $('msgs').innerHTML = '<div class="empty"><div class="ei"></div><h3>ברוכים הבאים</h3><p>בחרו נושא לשיחה</p></div>';
       loadThreads();
       // Save join request automatically
       const reqs = ls('nameRequests');
@@ -3773,7 +3830,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const el = document.createElement('div');
         el.className = 'ti muted' + (CT && CT.id === tid ? ' active' : '');
         el.dataset.tid = tid;
-        el.innerHTML = `<div class="tt">🔕 ${t.title}</div><div class="tm">${fmtDate(t.lastActivity)}</div>`;
+        el.innerHTML = `<div class="tt">${t.title}</div><div class="tm">${fmtDate(t.lastActivity)}</div>`;
         el.onclick = () => selectThread(t);
         list.appendChild(el);
       });
@@ -3809,7 +3866,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const googleAvatar = info.picture || null;
         // Check whitelist
         if (!isEmailAllowed(email)) {
-          $('lErr').textContent = '❌ המייל שלך אינו מורשה להיכנס לאתר זה. פנה למנהל.';
+          $('lErr').textContent = 'המייל שלך אינו מורשה להיכנס לאתר זה. פנה למנהל.';
           $('lErr').classList.remove('hidden');
           return;
         }
@@ -3883,7 +3940,7 @@ const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase(
         const bar = $('iprev'); bar.classList.remove('hidden');
         bar.innerHTML = `
    <video src="${ev.target.result}" style="width:60px;height:60px;object-fit:cover;border-radius:8px;flex-shrink:0;" muted></video>
-   <span class="iprevn">🎬 ${f.name}</span>
+   <span class="iprevn">${f.name}</span>
    <button class="iprevrm" onclick="clearVidPrev()">×</button>`;
         $('sbtn').disabled = false;
       };
@@ -3967,7 +4024,7 @@ if (SUPER_EMAILS.includes(email.toLowerCase())) return true;
   <div id="googleNameScreen">
     <div class="ac" style="max-width:380px;">
       <div class="alo">
-        <div style="font-size:40px;margin-bottom:10px;">👋</div>
+        
         <h1>ברוך הבא!</h1>
         <p>בחר שם שיוצג בפלטפורמה</p>
       </div>
