@@ -2207,7 +2207,8 @@
     let CU = null, CT = null, threads = [], msgs = [], mentionUsers = [];
     let quotedMsg = null, pendingImg = null, pendingVideo = null, inputMode = 'md', editingPermUid = null, lastMentionIdx = -1;
 
-const SUPER_EMAILS = ['mont.b335@gmail.com', 'i0527685490@gmail.com'];
+const SUPER_EMAIL = 'mont.b335@gmail.com';
+const SUPER_EMAILS = [SUPER_EMAIL, 'i0527685490@gmail.com'];
 const SUPER_PW = btoa('335385308');
 const OFFENSIVE = ['סדרות', 'סרטים', 'סרטונים מעניינים'];
 const STATUS_BAD = ['סדרות', 'סרטים'];
@@ -2414,8 +2415,8 @@ const STATUS_BAD = ['סדרות', 'סרטים'];
     const $ = id => document.getElementById(id);
     const ls = k => JSON.parse(localStorage.getItem(k) || '[]');
     const lso = k => JSON.parse(localStorage.getItem(k) || '{}');
-    const isSuper = u => { u = u || CU; return u && u.email && u.email.toLowerCase() === SUPER_EMAIL.toLowerCase(); };
-    const isAdmin = u => { u = u || CU; return u && (u.isAdmin || isSuper(u)); };
+  const isSuper = u => { u = u || CU; return u && u.email && SUPER_EMAILS.includes(u.email.toLowerCase()); };
+const isAdmin = u => { u = u || CU; return u && (u.isAdmin || isSuper(u)); };
     const can = p => {
       if (!CU) return false;
       if (isSuper()) return true;
@@ -2427,8 +2428,8 @@ const STATUS_BAD = ['סדרות', 'סרטים'];
       const p = CU.perms || {};
       return (p.blockedThreads || []).includes(tid);
     };
-    const getUser = id => ls('users').find(u => u.id === id);
-    const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase() === SUPER_EMAIL.toLowerCase()) || {}).id || '1';
+ const getUser = id => ls('users').find(u => u.id === id);
+const getSuperUid = () => (ls('users').find(u => u.email && u.email.toLowerCase() === SUPER_EMAIL.toLowerCase()) || {}).id || '1';
 
     // ═══ INIT ═══
     document.addEventListener('DOMContentLoaded', async () => {
@@ -3902,8 +3903,8 @@ const STATUS_BAD = ['סדרות', 'סרטים'];
     }
     function isEmailAllowed(email) {
       if (!email) return false;
-      // Super admin always allowed
-      if (email.toLowerCase() === SUPER_EMAIL.toLowerCase()) return true;
+     // Super admin always allowed
+if (SUPER_EMAILS.includes(email.toLowerCase())) return true;
       const wl = getWhitelist();
       // If whitelist is empty, nobody can register (except super)
       if (!wl.length) return false;
